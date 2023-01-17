@@ -1,1 +1,11 @@
-![image](https://user-images.githubusercontent.com/80095098/210841135-0b3362db-e4ae-4a1a-85d6-2bd6486df867.png)
+# KR11_PPO
+## Контрольная работа №1. Разметка страниц и основные элементы GUI
+____
+ВАРИАНТ 8. Список музыкальных альбомов. Каждый содержит картинку,
+название группы, название альбома, год. Возможность
+добавлять\удалять\редактировать.
+___
+## ТЕСТЫ НАХОДЯТСЯ В app->src->test/java/com/example/ipr1->ExampleUnitTest.java
+____
+
+![8_Bad1lYyFs](https://user-images.githubusercontent.com/54409358/212848995-ca1c8ebd-4184-4083-8166-55de87534e68.jpg)
