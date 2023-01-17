@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">PPO_KR1</string>
+
+    <string name="list_of_music_albums" tools:ignore="ExtraTranslation">List of music albums</string>
+    <string name="to_name" tools:ignore="ExtraTranslation">Name</string>
+    <string name="to_group" tools:ignore="ExtraTranslation">Group</string>
+    <string name="to_year" tools:ignore="ExtraTranslation">Year</string>
+
+    <string name="confirm" tools:ignore="ExtraTranslation">Сonfirm</string>
+    <string name="are_you_sure_you_want_to_delete_the_selected_albums" tools:ignore="ExtraTranslation">
+        Are you sure you want to delete the selected albums?</string>
+    <string name="are_you_sure_you_want_to_save_the_changes" tools:ignore="ExtraTranslation">
+        Are you sure you want to save the changes?</string>
+    <string name="yes" tools:ignore="ExtraTranslation">Yes</string>
+    <string name="no" tools:ignore="ExtraTranslation">No</string>
+
+    <string name="you_must_select_at_least_one_album" tools:ignore="ExtraTranslation">You must select at least one album!</string>
+    <string name="you_can_t_change_multiple_albums_at_once" tools:ignore="ExtraTranslation">
+        You can\'t change multiple albums at once!</string>
+
+    <string name="name_of_the_new_album" tools:ignore="ExtraTranslation">
+        Name of the new album</string>
+    <string name="group_of_the_new_album" tools:ignore="ExtraTranslation">
+        Group of the new album</string>
+    <string name="year_of_the_new_album" tools:ignore="ExtraTranslation">
+        Year of the new album</string>
+
+    <string name="button_ok" tools:ignore="ExtraTranslation">OK</string>
+    <string name="button_back" tools:ignore="ExtraTranslation">BACK</string>
+    <string name="warning" tools:ignore="ExtraTranslation">Please fill in this field</string>
+
+
+    <string name="there_should_be_no_empty_fields" tools:ignore="ExtraTranslation">
+        There should be no empty fields!</string>
+    <string name="you_need_to_make_some_changess" tools:ignore="ExtraTranslation">
+          You need to make some changes!</string>
+</resources>

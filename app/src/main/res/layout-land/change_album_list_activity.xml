@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#232323">
+
+    <ImageView
+        android:id="@+id/imageViewGetImage"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewPicturePath"
+        app:layout_constraintStart_toStartOf="@+id/textViewPicturePath"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonLoadImage"
+        app:srcCompat="@drawable/standart_album_icon" />
+
+    <ImageButton
+        android:id="@+id/imageButtonCancelImage"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_toStartOf="@+id/imageButtonEdit"
+        android:backgroundTint="#00FFFFFF"
+        android:backgroundTintMode="src_in"
+        android:onClick="imageButtonCancelImageClick"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonLoadImage"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonLoadImage"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonLoadImage"
+        app:srcCompat="@drawable/image_button_cancel" />
+
+    <TextView
+        android:id="@+id/textViewWarningYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please fill in this field"
+        android:textColor="#FF0000"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/editTextYearOfNewAlbum"
+        app:layout_constraintTop_toBottomOf="@+id/editTextYearOfNewAlbum" />
+
+    <TextView
+        android:id="@+id/textViewWarningName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please fill in this field"
+        android:textColor="#FF0000"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/editTextNameOfNewAlbum"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNameOfNewAlbum" />
+
+    <EditText
+        android:id="@+id/editTextNameOfNewAlbum"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Name of the new album"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#80FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextGroupOfNewAlbum"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:hint="Group of the new album"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#80FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/editTextNameOfNewAlbum"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNameOfNewAlbum" />
+
+    <EditText
+        android:id="@+id/editTextYearOfNewAlbum"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:hint="Year of the new album"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#80FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/editTextNameOfNewAlbum"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextGroupOfNewAlbum" />
+
+    <Button
+        android:id="@+id/buttonOkChangeAlbumList"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#9F9F9F"
+        android:onClick="buttonOkChangeAlbumListClick"
+        android:text="OK"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/textViewPicturePath"
+        app:layout_constraintStart_toStartOf="@+id/textViewPicturePath"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewGetImage" />
+
+    <Button
+        android:id="@+id/buttonBackToMainMenu"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#FFFFC107"
+        android:onClick="buttonBackToMainMenuClick"
+        android:text="BACK"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/buttonOkChangeAlbumList"
+        app:layout_constraintHorizontal_bias="0.229"
+        app:layout_constraintStart_toStartOf="@+id/buttonOkChangeAlbumList"
+        app:layout_constraintTop_toBottomOf="@+id/buttonOkChangeAlbumList" />
+
+    <TextView
+        android:id="@+id/textViewWarningGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please fill in this field"
+        android:textColor="#FF0000"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/editTextGroupOfNewAlbum"
+        app:layout_constraintTop_toBottomOf="@+id/editTextGroupOfNewAlbum" />
+
+    <TextView
+        android:id="@+id/textViewPicturePath"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="100dp"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonLoadImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonLoadImage"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonLoadImage" />
+
+    <ImageButton
+        android:id="@+id/imageButtonLoadImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextNameOfNewAlbum"
+        app:layout_constraintStart_toEndOf="@+id/editTextNameOfNewAlbum"
+        app:layout_constraintTop_toTopOf="@+id/editTextNameOfNewAlbum"
+        app:srcCompat="@drawable/image_button_load_image" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

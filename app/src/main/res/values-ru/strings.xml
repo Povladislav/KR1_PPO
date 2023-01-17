@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">PPO_KR1</string>
+
+    <string name="list_of_music_albums" tools:ignore="ExtraTranslation">Список музыкальных альбомов</string>
+    <string name="to_name" tools:ignore="ExtraTranslation">Название</string>
+    <string name="to_group" tools:ignore="ExtraTranslation">Группа</string>
+    <string name="to_year" tools:ignore="ExtraTranslation">Год</string>
+
+    <string name="confirm" tools:ignore="ExtraTranslation">Подтверждение</string>
+    <string name="are_you_sure_you_want_to_delete_the_selected_albums" tools:ignore="ExtraTranslation">
+        Вы уверены, что хотите удалить выбранные альбомы?</string>
+    <string name="are_you_sure_you_want_to_save_the_changes" tools:ignore="ExtraTranslation">
+        Вы уверены, что хотите сохранить изменения?</string>
+    <string name="yes" tools:ignore="ExtraTranslation">Да</string>
+    <string name="no" tools:ignore="ExtraTranslation">Нет</string>
+
+    <string name="you_must_select_at_least_one_album" tools:ignore="ExtraTranslation">Вы должны выбрать хотя бы один альбом!</string>
+    <string name="you_can_t_change_multiple_albums_at_once" tools:ignore="ExtraTranslation">
+        Вы не можете изменять несколько альбомов одновременно!</string>
+
+    <string name="name_of_the_new_album" tools:ignore="ExtraTranslation">
+        Название нового альбома</string>
+    <string name="group_of_the_new_album" tools:ignore="ExtraTranslation">
+        Группа нового альбома</string>
+    <string name="year_of_the_new_album" tools:ignore="ExtraTranslation">
+        Год нового альбома</string>
+
+    <string name="button_ok" tools:ignore="ExtraTranslation">ПОДТВЕРДИТЬ</string>
+    <string name="button_back" tools:ignore="ExtraTranslation">НАЗАД</string>
+    <string name="warning" tools:ignore="ExtraTranslation">Пожалуйста, заполните это поле</string>
+
+    <string name="there_should_be_no_empty_fields" tools:ignore="ExtraTranslation">
+        Пустых полей быть не должно!</string>
+    <string name="you_need_to_make_some_changess" tools:ignore="ExtraTranslation">
+          Вам нужно внести какие-либо изменения!</string>
+
+</resources>
